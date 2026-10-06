@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Entre em contato com a Rafting Aventuras. Tire suas dúvidas, faça reservas ou envie sugestões. Estamos localizados no Vale dos Rios.">
+    <meta name="author" content="Gediones Vieira">
+    <title>Fale Conosco | Rafting Aventuras</title>
+    <link rel="stylesheet" href="estilos/contato.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/rafting5.png" alt="Logotipo Rafting Aventuras">
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="passeios.html">Passeios</a>
+            <a href="contato.html">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="company-info">
+            <h1>Fale Conosco</h1>
+            <div class="contact-details">
+                <h2>Informações da Rafting Aventuras</h2>
+                <p><strong>Endereço:</strong> Rua das Corredeiras, 123, Vale dos Rios, Brasil</p>
+                <p><strong>Telefone:</strong> (00) 00000-0000</p>
+                <p><strong>E-mail:</strong> contato@raftingaventuras.com.br</p>
+            </div>
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3907.1509562772007!2d-58.410034947356046!3d-13.56187363649269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1786160660842!5m2!1spt-BR!2sbr"
+                  width="820" height="450" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Nossa Equipe, estamos aqui para servi-lo</h2>
+            <div class="profiles-grid">
+                <figure>
+                    <img src="imagens/gediones.jpg" alt="Gediones Vieira, Guia Chefe de Rafting">
+                    <figcaption>João Silva - Guia Chefe</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/raftingboat.png"
+                      alt="Maria Oliveira, Coordenadora de Segurança">
+                    <figcaption>Maria Oliveira - Coordenadora de Segurança</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/raftingboat1.png"
+                      alt="Pedro Santos, Responsável pelo Atendimento ao Cliente">
+                    <figcaption>Pedro Santos - Atendimento ao Cliente</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Envie uma Mensagem</h2>
+            <form action="#" method="post">
+                <div class="form-item">
+                    <label for="user_name">Nome:</label>
+                    <input type="text" id="user_name" name="user_name" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="user_email">E-mail:</label>
+                    <input type="email" id="user_email" name="user_email" required>
+                </div>
+
+                <fieldset>
+                    <legend>Finalidade da Mensagem:</legend>
+                    <div class="radio-group">
+                        <input type="radio" id="geral" name="purpose" value="geral" checked>
+                        <label for="geral">Consulta Geral</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="reserva" name="purpose" value="reserva">
+                        <label for="reserva">Pergunta sobre Reserva</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="sugestao" name="purpose" value="sugestao">
+                        <label for="sugestao">Sugestão de Site</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-item">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Quero receber a newsletter mensal</label>
+                </div>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rafting Aventuras - 😎 Gediones Vieira 😎 BYU Pathway</p>
+        <nav class="redes-sociais">
+            <a href="https://facebook.com">
+                <img src="imagens/facebook1.png" alt="Ícone do Facebook">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="imagens/linkedin.png" alt="Ícone do LinkedIn">
+            </a>
+            <a href="https://instagram.com">
+                <img src="imagens/instagram.png" alt="Ícone do Instagram">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
