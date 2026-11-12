@@ -29,23 +29,26 @@ h1 {
 }
 
 main img {
-    width: 150px;
+    width: 130px;
     height: auto;
     max-width: 840px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 5px solid rgba(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
     color: #333;
     text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 630px;
+    left: 90px;
 }
 
 aside img {
@@ -54,7 +57,7 @@ aside img {
 }
 
 main {
-    max-width: 840px;
+    max-width: 830px;
 }
 
 p {
@@ -66,4 +69,16 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Seletores de Classe */
+.caixa {
+    margin: 3em;
+    border: 1px solid rgb(0 0 0 0.2);
+    padding: 1em;
+    background-color: #eee;
+}
+
+.identacao {
+    padding-left: 2rem;
 }
