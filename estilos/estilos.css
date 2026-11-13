@@ -42,13 +42,17 @@ main img {
 aside {
     width: 20rem;
     color: #333;
+    margin: 3em;
+    border: 1px solid rgb(0 0 0 /0.2);
+    padding: 1em;
+    background-color: #eee;
     text-align: center;
 }
 
 aside h2 {
     position: absolute;
-    top: 630px;
-    left: 90px;
+    top: 585px;
+    left: 120px;
 }
 
 aside img {
@@ -74,7 +78,7 @@ footer {
 /* Seletores de Classe */
 .caixa {
     margin: 3em;
-    border: 1px solid rgb(0 0 0 0.2);
+    border: 1px solid rgb(0 0 0 /0.2);
     padding: 1em;
     background-color: #eee;
 }
